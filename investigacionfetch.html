@@ -167,3 +167,95 @@
   </TR>
   </TABLE><br><br>
   </body>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- |                                                                                                         MARCO/TABLA (INFORMACIÓN) PÁGINA 6                                                                                                                                                                 | -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<center><TABLE bgcolor= "black" width="1320" height="1000">
+  <TR>
+  <TD> </b>
+  </TR>
+  <TR  bgcolor= "silver">
+  <TD><br> <font size="5"><i><p style="text-align: Right;"> 25/02/21 </i></p>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       La unidad de control es la pieza más compleja que existe en un procesador y sus tareas son las siguientes: </i> </font>
+  <br><br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     -  &nbsp; Se encargan de coordinar el movimiento y el orden en que de los datos que se mueven dentro y fuera del procesador, 
+  <br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     así de las diferentes subunidades que se encargan de ello. </i>
+  <br><br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     -  &nbsp; En general se considera que las unidades de la etapa de captación o Fetch forman parte del hardware que llamamos 
+  <br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     unidad de control y dicho hardware es llamado también el Front-End de un procesador. </i>
+  <br><br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     -  &nbsp; Interpreta las instrucciones y las envía a las diferentes unidades de ejecución a las que esta conectado. </i>
+  <br><br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     -  &nbsp; Esta comunicado a las diferentes ALU y unidades de ejecución del procesador que actúan. </i>
+  <br><br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     -  &nbsp; Se encarga de captar y descodificar las instrucciones, sino también de escribir los resultados en los registros, caches
+  <br><i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     o en la dirección correspondiente de la RAM. </i>
+  <br><br><center> <img src=https://hardzone.es/app/uploads-hardzone.es/2021/01/Opcode-Mode-Address.jpg width="700" height="420"> </center> 
+  <br><br><i><p style="text-align: Right;"> 6 <br><br></p></TD> </i> </center></font> 
+  </TR>
+  </TABLE><br><br>
+  </body>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- |                                                                                                         MARCO/TABLA (INFORMACIÓN) PÁGINA 7                                                                                                                                                                 | -->
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <center><TABLE bgcolor= "black" width="1320" height="1000">
+  <TR>
+  <TD> </b>
+  </TR>
+  <TR  bgcolor= "silver">
+  <TD><br> <font size="5"><i><p style="text-align: Right;"> 25/02/21 </i></p>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       La unidad de control lo que hace es descodificar las instrucciones y esto lo hace porque cada instrucción en realidad no deja 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       de ser una especie de oración en donde primero va el verbo y luego el objeto directo u objeto sobre el que se hace la acción. </i> </font>
+  <br><br><i><b><font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      La Segunda Etapa: Decode </i> </b>
+  <br><br><center> <img src=https://hardzone.es/app/uploads-hardzone.es/2020/12/Instruction-Decoding-1.jpg width="450" height="420"> </center> 
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Hay diferentes tipos de instrucciones y no todas hacen lo mismo, por lo que dependiendo del tipo de instrucción &nbsp; necesitamos 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       saber hacía que unidades de ejecución se van a enviar y la manera más clásica de hacerlo es a través de lo que llamamos &nbsp; un 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       descodificador, el cual toma cada instrucción, la divide internamente según el opcode o instrucción y el dato o la dirección de 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       memoria donde se encuentra este.</i> </font>
+  <br><br><center> <img src=https://hardzone.es/app/uploads-hardzone.es/2021/01/Control-Unit.jpg width="450" height="420"> </center> 
+  <br><br><i><p style="text-align: Right;"> 7 <br><br></p></TD> </i> </center></font> 
+  </TR>
+  </TABLE><br><br>
+  </body>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- |                                                                                                         MARCO/TABLA (INFORMACIÓN) PÁGINA 8                                                                                                                                                                 | -->
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <center><TABLE bgcolor= "black" width="1320" height="1000">
+  <TR>
+  <TD> </b>
+  </TR>
+  <TR  bgcolor= "silver">
+  <TD><br> <font size="5"><i><p style="text-align: Right;"> 25/02/21 </i></p>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Este ciclo de instrucción es el más complejo de todo y el que define el tipo de arquitectura. Dependiendo si tenemos un conjunto 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       de &nbsp; instrucciones reducido o complejo &nbsp; esto afectará &nbsp; a la naturaleza de la unidad de control, &nbsp; dependiendo del formato &nbsp; de la  
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       instrucción o de cuantas &nbsp; se procesen al mismo tiempo la fase de &nbsp; descodificación y por tanto la unidad de control tendrá &nbsp; una
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       naturaleza u otra. </i> </font>
+  <br><br><i><b><font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Tercera Etapa: Execute </i> </b>
+  <br><br><center> <img src= https://hardzone.es/app/uploads-hardzone.es/2020/05/1-bit-ALU.jpg width="450" height="420"> </center>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       La última etapa es la de la ejecución de las instrucciones, en esta étapa las instrucciones son resueltas, pero no todos los tipos 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       de instrucción se resuelven de la misma forma, ya que la forma de utilizar el hardware dependerá de la función de cada una de
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ellas, en general tenemos cuatro tipos de instrucciones: </i> </font>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <b> Instrucciones De Movimiento De Bits: </b> &nbsp;&nbsp;&nbsp;&nbsp;    En el cual se manipula el orden de los bits que contienen el dato. </i> </font>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <b> Instrucciones Aritméticas:           </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Donde se realizan operaciones matemáticas y también lógicas, estas  
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       se solucionan en las llamadas ALU o unidades aritmético-logicas. </i> </font>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <b> Instrucciones De Salto: </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    En la que se cambia la siguiente el valor del contador de &nbsp; programa,  
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       lo que permite utilizar el código de manera recursiva. </i> </font>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <b> Instrucciones De Memoria: </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Son con las que el procesador lee y escribe la información de la 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       memoria del sistema. </i> </font>
+  <br><br><br><br><br><br><br><i><p style="text-align: Right;"> 8 <br><br></p></TD> </i> </center></font> 
+  </TR>
+  </TABLE><br><br>
+  </body>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- |                                                                                                         MARCO/TABLA (INFORMACIÓN) PÁGINA 9                                                                                                                                                                 | -->
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <center><TABLE bgcolor= "black" width="1320" height="1000">
+  <TR>
+  <TD> </b>
+  </TR>
+  <TR  bgcolor= "silver">
+  <TD><br> <font size="5"><i><p style="text-align: Right;"> 25/02/21 </i></p>
+  <br><br><i>  <font size="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Una vez la instrucción ha sido terminada se escribe el resultado sobre una &nbsp; dirección de memoria en concreto y &nbsp; se pasa a 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ejecutar la siguiente, algunas instrucciones no manipulan los valores de memoria sino ciertos registros. Así pues el registro 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       del &nbsp; contador de programa es &nbsp; modificado por las &nbsp; instrucciones de salto, si queremos &nbsp; leer o escribir un dato entonces se 
+  <br>                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       manipulan los registros MAR y MDR. </i> </font>
+  <br><br><center> <img src= https://bam.files.bbci.co.uk/bam/live/content/zx46yrd/small width="450" height="420"> </center>
+  <br><br><br><br><br><br><br><br><br><i><p style="text-align: Right;"> 9 <br><br></p></TD> </i> </center></font> 
+  </TR>
+  </TABLE><br><br>
+  </body>
